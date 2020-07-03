@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  background-color: #a2de96;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  margin: 30px;
+  border-radius: 10px;
+ 
+}
+
+.App-title{
+  color: #3ca59d;
+  margin: 1vh;
+  
+  font-family: 'Lora', serif;
+  font-size: 6rem; 
+  
+}
+
+.App-header {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 4vmin);
+  color: #5a3d55;
+}
+
+input[placeholder]{
+  height: 42px;
+  width: 250px;
+  border-radius: 7px;
+  font-size: 20px;
+  color: #c777b9;
+  border: none; 
+  
+}
+.App-btn{
+  background-color: #ff9a76;
+  height: 44px;
+  width: 100px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-family:'Open Sans', sans-serif;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.App-list{
+  color: white;
+  font-size: 30px;
+  font-family:'Open Sans', sans-serif;
+  list-style-position: inside;
+  list-style: none;
+  margin: 20px;
+}
+
+.App-delete-btn{
+  height: 44px;
+  width: 50px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-family:'Open Sans', sans-serif;
+  margin-left: 10px;
+  background-color:#ff9a76 ;
+}
